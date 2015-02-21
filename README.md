@@ -88,13 +88,14 @@ invertible.
 
 # A few test case:
 
-`z <- matrix(1:16, nrow=4, ncol=4)`
-`a <- c(2,3,2,1,2,1,1,1,2) y<-matrix(c, nrow=3,ncol=3)`
-`y<-matrix(1:16, nrow=4,ncol=4)`
-Then
-`a <- makeCacheMatrix(y)`
-`cacheSolve(a)`
-`cacheSolve(a)`
+1.   `z <- matrix(1:16, nrow=4, ncol=4)`
+2.   `a <- c(2,3,2,1,2,1,1,1,2)` 
+3.   `y<-matrix(c, nrow=3,ncol=3)`
+4.   `y<-matrix(1:16, nrow=4,ncol=4)`
+5.    Then
+6.   `a <- makeCacheMatrix(y)`
+7.   `cacheSolve(a)`
+8.   `cacheSolve(a)`
 
 In order to complete this assignment, you must do the following:
 
