@@ -86,6 +86,16 @@ function in R. For example, if `X` is a square invertible matrix, then
 For this assignment, assume that the matrix supplied is always
 invertible.
 
+A few tests:
+# z <- matrix(1:16, nrow=4, ncol=4)
+# a <- c(2,3,2,1,2,1,1,1,2) y<-matrix(c, nrow=3,ncol=3)
+# y<-matrix(1:16, nrow=4,ncol=4)
+
+Then
+# a <- makeCacheMatrix(y)
+# cacheSolve(a)
+# cacheSolve(a)
+
 In order to complete this assignment, you must do the following:
 
 1.  Fork the GitHub repository containing the stub R files at
