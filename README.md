@@ -86,7 +86,7 @@ function in R. For example, if `X` is a square invertible matrix, then
 For this assignment, assume that the matrix supplied is always
 invertible.
 
-# A few test case:
+#### A few test case:
 
 1.   `z <- matrix(1:16, nrow=4, ncol=4)`
 2.   `a <- c(2,3,2,1,2,1,1,1,2)` 
